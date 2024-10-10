@@ -1,4 +1,4 @@
-package com.example.hw5;
+package com.example.hw5.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -17,6 +17,6 @@ public class Person {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
-    private String name;
-    private String email;
+    private String login;
+    private String password;
 }

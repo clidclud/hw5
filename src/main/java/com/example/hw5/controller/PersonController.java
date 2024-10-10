@@ -1,5 +1,7 @@
-package com.example.hw5;
+package com.example.hw5.controller;
 
+import com.example.hw5.service.PersonService;
+import com.example.hw5.model.Person;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
